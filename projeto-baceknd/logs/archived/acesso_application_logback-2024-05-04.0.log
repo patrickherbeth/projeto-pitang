@@ -1,0 +1,47 @@
+2024-05-04 13:35:19 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-04 13:35:21 [restartedMain] INFO  : Fetching config from server at : http://localhost:8888
+2024-05-04 13:35:21 [restartedMain] INFO  : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2024-05-04 13:35:21 [restartedMain] WARN  : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2024-05-04 13:35:21 [restartedMain] INFO  : No active profile set, falling back to default profiles: default
+2024-05-04 13:35:22 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-04 13:35:22 [restartedMain] INFO  : Finished Spring Data repository scanning in 157 ms. Found 3 JPA repository interfaces.
+2024-05-04 13:35:22 [restartedMain] INFO  : BeanFactory id=9979cbb0-0ba9-33c3-b5ab-462d07e03013
+2024-05-04 13:35:23 [restartedMain] INFO  : Tomcat initialized with port(s): 8090 (http)
+2024-05-04 13:35:23 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8090"]
+2024-05-04 13:35:23 [restartedMain] INFO  : Starting service [Tomcat]
+2024-05-04 13:35:23 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-05-04 13:35:23 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-05-04 13:35:23 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2603 ms
+2024-05-04 13:35:24 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-05-04 13:35:24 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-05-04 13:35:24 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-04 13:35:24 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.4.27.Final
+2024-05-04 13:35:25 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-04 13:35:25 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2024-05-04 13:35:25 [restartedMain] INFO  : Envers integration enabled? : true
+2024-05-04 13:35:26 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-04 13:35:26 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-04 13:35:27 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-04 13:35:28 [restartedMain] INFO  : Cannot determine local hostname
+2024-05-04 13:35:29 [restartedMain] INFO  : Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-05-04 13:35:29 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-04 13:35:29 [restartedMain] INFO  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-04 13:35:29 [restartedMain] WARN  : Unable to start LiveReload server
+2024-05-04 13:35:30 [restartedMain] INFO  : Cannot determine local hostname
+2024-05-04 13:35:30 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8090"]
+2024-05-04 13:35:30 [restartedMain] INFO  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-04 13:35:32 [restartedMain] INFO  : Cannot determine local hostname
+2024-05-04 13:35:33 [restartedMain] INFO  : Cannot determine local hostname
+2024-05-04 13:35:33 [restartedMain] INFO  : Context refreshed
+2024-05-04 13:35:33 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2024-05-04 13:35:33 [restartedMain] INFO  : Scanning for api listing references
+2024-05-04 13:35:33 [restartedMain] INFO  : Generating unique operation named: handleUsingGET_1
+2024-05-04 13:35:33 [restartedMain] INFO  : Generating unique operation named: handleUsingGET_2
+2024-05-04 13:35:33 [restartedMain] INFO  : Started UploadFileApplication in 15.669 seconds (JVM running for 16.869)
+2024-05-04 13:35:33 [RMI TCP Connection(2)-192.168.1.10] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-04 13:35:33 [RMI TCP Connection(2)-192.168.1.10] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-05-04 13:35:33 [RMI TCP Connection(2)-192.168.1.10] INFO  : Completed initialization in 2 ms
+2024-05-04 13:35:52 [SpringContextShutdownHook] INFO  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-04 13:35:52 [SpringContextShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-04 13:35:52 [SpringContextShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2024-05-04 13:35:52 [SpringContextShutdownHook] INFO  : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,2 @@
+2024-03-28 09:20:58 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h22m17s1ms464µs).
+2024-03-28 09:20:58 [HikariPool-1 connection adder] WARN  : ConnectionID:128 ClientConnectionId: 41cb1a3c-3b06-40b5-b4e8-0d92ab89c72d Prelogin error: host PCEFFSWFMT2586 port 1433 Error reading prelogin response: An established connection was aborted by the software in your host machine ClientConnectionId:41cb1a3c-3b06-40b5-b4e8-0d92ab89c72d
